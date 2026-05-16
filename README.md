@@ -4,6 +4,23 @@
 
 <big><center>Bring the power of calculation to your Minecraft chat with CalcMod! Enjoy features from simple calculations to advanced tools for optimizing gameplay.</center></big>
 
+---
+
+> ## 🔧 NeoForge 1.21.1 Backport
+>
+> This branch is an **unofficial backport** of [CalcMod](https://github.com/js802025/calcmod) to **NeoForge 21.1.228 / Minecraft 1.21.1**.
+>
+> Upstream CalcMod ships Forge builds for 1.20, 1.21.4, 1.21.5 and 1.21.6 — but **no 1.21.1 build and no NeoForge build**. This fork fills that gap so servers and players still on 1.21.1 (the version supported by mods like Create 6.x, Iris, etc.) can use CalcMod.
+>
+> **What changed vs. upstream `forge/1.21.4`:**
+> - Build system migrated from ForgeGradle 6 → ModDevGradle 2.0 (NeoForge)
+> - `mods.toml` → `neoforge.mods.toml`, Forge event-bus imports → NeoForge equivalents
+> - `Craft.java` / `RecipeSuggestionProvider.java` backported from the MC 1.21.4 `RecipeDisplay` API to the MC 1.21.1 `Recipe` API
+> - No features removed — full feature parity with upstream 1.21.4
+>
+> All credit for the mod itself goes to the original author **[js802025](https://github.com/js802025)** (MIT licensed). The jar produced by this branch is named `calcmod-backported-<version>.jar` to make it visibly distinct from official releases.
+
+---
 
 <br>   
 
@@ -24,6 +41,8 @@
 
 # 🔄 Compatibility
 CalcMod supports [Fabric](https://fabricmc.net), [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/), [Quilt](https://quiltmc.org/en), and [Paper](https://papermc.io/) mod loaders, down to Minecraft version 1.12.
+
+**This fork** additionally provides a **NeoForge 21.1.228 (Minecraft 1.21.1)** build via the `neoforge/1.21.1` branch — not present in upstream.
 
 CalcMod can be installed on **both the client and server**, and also works on clients **without requiring servers to have the mod** (and vice versa.)
 
