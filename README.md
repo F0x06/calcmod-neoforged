@@ -18,7 +18,7 @@
 > - `Craft.java` / `RecipeSuggestionProvider.java` backported from the MC 1.21.4 `RecipeDisplay` API to the MC 1.21.1 `Recipe` API
 > - No features removed — full feature parity with upstream 1.21.4
 >
-> All credit for the mod itself goes to the original author **[js802025](https://github.com/js802025)** (MIT licensed). The jar produced by this branch is named `calcmod-backported-<version>.jar` to make it visibly distinct from official releases.
+> All credit for the mod itself goes to the original author **[js802025](https://github.com/js802025)** (MIT licensed). The jar produced by this branch is named `calcmod-neoforged-<version>.jar` to make it visibly distinct from official releases.
 
 ---
 
