@@ -6,9 +6,9 @@
 
 ---
 
-> ## 🔧 NeoForge 1.21.1 Backport
+> ## 🔧 NeoForge 1.21.1 port
 >
-> This branch is an **unofficial backport** of [CalcMod](https://github.com/js802025/calcmod) to **NeoForge 21.1.228 / Minecraft 1.21.1**.
+> This branch is an **unofficial port** of [CalcMod](https://github.com/js802025/calcmod) to **NeoForge 21.1.228 / Minecraft 1.21.1**.
 >
 > Upstream CalcMod ships Forge builds for 1.20, 1.21.4, 1.21.5 and 1.21.6 — but **no 1.21.1 build and no NeoForge build**. This fork fills that gap so servers and players still on 1.21.1 (the version supported by mods like Create 6.x, Iris, etc.) can use CalcMod.
 >
